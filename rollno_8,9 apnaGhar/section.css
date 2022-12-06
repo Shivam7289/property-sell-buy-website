@@ -1,0 +1,196 @@
+
+.imgknows img{
+    height: 464px;
+    width: 101%;
+    border-radius: 2px solid black;
+    margin: auto;
+}
+.img2{
+    height: 20px;
+    width: 30px;
+
+}
+
+.imgknows1{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    display: block;
+    background-color: #5e666e;
+}
+.inner_header{
+    width: 800px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_container h1{
+    color: #FF5;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "HP Simplified Jpan";
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo_container h1 span{
+    font-weight: 800;
+    font-family: "Magneto";
+}
+.navigation{
+    float: right;
+    height: 100%;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+}
+.navigation a:last-child{
+    padding-right: 0px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #FF5;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+/* section part start from here */
+
+        /* this is used for "our rental properties " */
+        .head{
+            padding: 10px;
+        }
+        .HeadingProperties {
+            font-size: 40px;
+            text-align: center;
+        }
+         
+       
+
+        #img-section {
+			height: 100%;
+			padding: 9px;
+            margin: 10px;
+            display: flex;
+
+        }
+
+        #img-section .img-box img {
+            height: 200px;
+            margin: auto;
+            display: block;
+            flex-direction: column;
+
+
+        }
+
+        #img-section .img-box {
+
+           
+            padding: 3px;
+            margin: 5px;
+			border-radius: 5px;
+        
+
+        }
+		 .img-box:hover{
+			transform: scale(1.04);
+            transition: all ease 0.3s;
+			box-shadow: 2px 2px 12px rgb(68, 59, 59);
+			
+
+		}
+
+        .centersub {
+
+            font-size: 38px;
+            margin: 5px;
+            text-align: center;
+
+        }
+
+        .imgabout {
+            font-style: oblique;
+            font-size: 15px;
+            text-align: center;
+        }
+		/* Footer Css starts from here */
+		.footer{
+			
+			height: 100%;
+
+		}
+		  .insider{
+			  margin: 0;
+			  padding: 31px;
+			  background-color: #363636; 
+		  }
+		  .links{
+			  display: flex;
+			  width: 349px;
+			  height: 70px;
+			  margin: auto;
+		  }
+		  .links ul{
+			  display: flex;
+		  }
+		   .social{
+			   list-style: none;
+			  
+		  }
+		  .social a{
+			  padding: 15px 20px;
+			  font-size: 30px;
+			  color: aqua;
+			  transition: all .25;
+		  }
+		  .social a:hover{
+			  color: rgb(159, 222, 222);
+		  }
+		  .sectionlink{
+			  display: flex;
+			  width: 424px;
+			  height: 45px;
+			  margin: auto;
+		  }
+		  .sectionlink ul{
+			  display: flex;
+		  }
+		  .sectionI{
+			  list-style: none;
+		  }
+          .sectionI a{
+            text-decoration: none;
+			padding: 0px 15px;
+			font-size: 18px;
+			color: white;
+			transition: all .25;
+
+		  }
+		  .sectionI a:hover{
+			  color: rgb(112, 226, 226);
+		  }
+		  .outer{
+			 padding: 28px; 
+			 text-align: center;
+			 color: rgb(255, 255, 255);
+			 font-size: 18px;
+            
+			 background-color: #454545;
+		  } 

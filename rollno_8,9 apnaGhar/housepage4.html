@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apnaGhar | Wooden </title>
+   <link rel="stylesheet" href="housepage4.css">
+   <!-- <link rel="stylesheet" href="style.css"> -->
+   <style>
+       /* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+   margin: 0; 
+   padding: 0; 
+   box-sizing: border-box; 
+   scroll-behavior: smooth; 
+   scroll-padding-top: 3rem; 
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Variables */
+:root {
+  --main-color: #2288ff;
+  --second-color: #192f6a;
+  --text-color: #314862;
+  --bg-color: #fff;
+
+}
+
+
+
+body {
+  color: var(--text-color);
+}
+
+section {
+  padding: 4.5rem 0 3rem;
+}
+
+.container {
+  max-width: 1068px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: block;
+  width: 100%;
+  background: var(--bg-color);
+  
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 35px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-color);
+  /* text-transform: uppercase; */
+}
+
+.logo .bx {
+  font-size: 24px;
+  color: var(--main-color);
+}
+
+.navbar {
+  display: flex;
+  box-shadow: blue;
+}
+
+.navbar a {
+  padding: 8px 17px;
+  color: var(--text-color);
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: var(--main-color);
+}
+
+#menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+#menu {
+  display: none;
+}
+
+.btn {
+  padding: 8px 22px;
+  background: var(--main-color);
+  color: var(--bg-color);
+  border-radius: 5rem;
+}
+
+.btn:hover {
+  background: #3492fd;
+}
+
+.footer {
+  background: var(--main-color);
+  color: var(--bg-color);
+  border-radius: 5rem 0 0 0;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  gap: 2rem;
+}
+.footer-container h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.footer-box {
+  display: flex;
+  flex-direction: column;
+}
+.footer-box h3 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.footer-box a {
+  font-size: 0.8rem;
+  color: var(--bg-color);
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.footer-box a:hover {
+  color: var(--text-color);
+}
+.social a {
+  font-size: 20px;
+  margin-right: 1rem;
+}
+.social a:hover {
+  color: var(--second-color);
+}
+.copyright {
+  padding: 20px;
+  text-align: center;
+  color: var(--bg-color);
+  background: var(--main-color);
+}
+
+   </style>
+   </head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="index.html" class="logo"><i class="fa-solid fa-house"></i>apnaGhar</a>
+            <!-- Menu Icon -->
+            <input type="checkbox" name="" id="menu">
+            <label for="menu" <i class='bx bx-menu' id="menu-icon"></i></label>
+            <!-- Nav List -->
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sectionmain.html">Buy</a></li>
+                <li><a href="sectionmain.html">Rent</a></li>
+                <li><a href="index.html">Sell</a></li>
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="index.html">Properties</a></li>
+            </ul>
+            <!-- Log In Button -->
+            <a href="login.html" class="btn">Log In</a>
+        </div>
+    <div class="space">
+
+        <div class="page1">
+            <div class="localpage">
+                <img src="Images/wooden1.jpg" alt="" height="300px" width="350px">
+                <p class="colorp">Price 1250$</p>
+                <div class="center">
+
+                    <button class="button">Book Now</button>
+                </div>
+            </div>
+
+            <div class="localpage">
+
+                <img src="Images/wooden2.jpg" alt="" height="300px" width="350px"><p class="colorp">Price 2050$</p>
+                <div class="center">
+
+                    <button class="button">Book Now</button>
+                </div>
+
+            </div>
+            <div class="localpage">
+
+                <img src="Images/wooden3.jpg" alt="" height="300px" width="350px"><p class="colorp">Price 8250$</p>
+                <div class="center">
+
+                    <button class="button">Book Now</button>
+                </div>
+
+            </div>
+
+            <div class="localpage">
+
+                <img src="Images/wooden4.jpg" alt="" height="300px" width="350px"><p class="colorp">Price 3250$</p>
+                <div class="center">
+
+                    <button class="button">Book Now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="space2">
+
+        <div class="page2">
+
+
+            <div class="localpage2">
+
+                <img src="Images/woode5.jpg" alt="" height="300px" width="350px"><p class="colorp">Price 6250$</p>
+               
+                <div class="center">
+                    
+                    
+
+                    <button class="button">Book Now</button>
+                </div>
+            </div>
+
+            <div class="localpage2">
+
+                <img src="Images/wooden6.jpg" alt="" height="300px" width="350px"><p class="colorp">Price 1960$</p>
+                <div class="center">
+
+                    <button class="button">Book Now</button>
+                </div>
+
+            </div>
+
+            <div class="localpage2">
+
+                <img src="Images/wooden7.jpg" alt="" height="300px" width="350px"><p class="colorp">Price 1950$</p>
+                <div class="center">
+
+                    <button class="button">Book Now</button>
+                </div>
+            </div>
+
+            <div class="localpage2">
+
+                <img src="Images/wooden8.jpg" alt="" height="300px" width="350px"><p class="colorp">Price 5250$</p>
+                <div class="center">
+
+                    <button class="button">Book Now</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="space3">
+
+        <div class=" page3">
+            <div class="localpage3">
+
+                <img src="Images/wooden9.jpg" alt="" height="300px" width="350px"><p class="colorp">Price 9250$</p>
+                <div class="center">
+
+                    <button class="button">Book Now</button>
+                </div>
+
+            </div>
+
+            <div class="localpage3">
+
+                <img src="Images/wooden10.jpg" alt="" height="300px" width="350px"><p class="colorp">Price 2000$</p>
+                <div class="center">
+
+                    <button class="button">Book Now</button>
+                </div>
+
+            </div>
+
+            <div class="localpage3">
+
+                <img src="Images/wooden11.jpg" alt="" height="300px" width="350px"><p class="colorp">Price 5000$</p>
+                <div class="center">
+
+                    <button class="button">Book Now</button>
+                </div>
+            </div>
+
+            <div class="localpage3">
+
+                <img src="Images/wooden12.jpg" alt="" height="300px" width="350px"><p class="colorp">Price 2550$</p>
+                <div class="center">
+
+                    <button class="button">Book Now</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-container container">
+            <h2>apnaGhar</h2>
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <a href="#">Agency</a>
+                <a href="#">Building</a>
+                <a href="#">Rates</a>
+            </div>
+            <div class="footer-box">
+                <h3>Locations</h3>
+                <a href="#">Delhi</a>
+                <a href="#">Mumbai</a>
+                <a href="#">Noida</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <a href="#">9876567890</a>
+                <a href="#">apnaGhar@gmail.com</a>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; apnaGhar All Right Reserved</p>
+    </div>
+
+    <script src="https://kit.fontawesome.com/76e6a95f48.js" crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+
+</html>

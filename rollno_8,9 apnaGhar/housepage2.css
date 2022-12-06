@@ -1,0 +1,97 @@
+        		
+                         /* page start from here */
+                        .page1 {
+                
+                            margin: 35px;
+                            display: flex;
+                
+                        }
+                        img:hover{
+                            transform: scale(1.07);
+                            transition: all ease 0.3s;
+                            box-shadow: 2px 2px 12px rgb(20, 16, 16);
+                        }
+                
+                        .page1 .localpage img {
+                            height: 200px;
+                            margin: auto;
+                            display: block;
+                            flex-direction: column;
+                            
+                
+                
+                
+                        }
+                
+                        .page2 {
+                
+                            margin: 35px;
+                            display: flex;
+                        }
+                
+                        .page2 .localpage2 img {
+                            height: 200px;
+                            margin: auto;
+                            display: block;
+                            flex-direction: column;
+                
+                
+                
+                        }
+                
+                        .page3 {
+                
+                            margin: 35px;
+                            display: flex;
+                        }
+                
+                        .page3 .localpage3 img {
+                            height: 200px;
+                            margin: auto;
+                            display: block;
+                            flex-direction: column;
+                        }
+                
+                        .space .localpage {
+                            margin: 3px;
+                            padding: 3 px;
+                            border-radius: 3px;
+                            border: 2.1px solid black;
+                        }
+                
+                        .space2 .localpage2 {
+                            margin: 3px;
+                            padding: 3 px;
+                            border-radius: 3px;
+                            border: 2.1px solid black;
+                        }
+                
+                        .space3 .localpage3 {
+                            margin: 3px;
+                            padding: 3 px;
+                            border-radius: 3px;
+                            border: 2.1px solid black;
+                        }
+                
+                        .center {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 22px;
+                            padding: 10px;
+                            background-color: rgb(55, 59, 75)
+                            
+                        }
+                        .button:hover{
+                            transform: scale(1.07);
+                            transition: all ease 0.3s;
+                            box-shadow: 2px 2px 12px rgb(20, 16, 16);
+                        }
+                        p{
+                            text-align: center;
+                        }
+                        .colorp{
+                            background-color: rgb(175, 194, 188);
+                        }
+                  
+             
